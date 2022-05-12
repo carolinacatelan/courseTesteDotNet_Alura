@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\anacarolinacs\\Documents\\Kilimanjaro\\SilvaEstacionamento\\SilvaEstacionamentoTest\\SilvaEstacionamentoTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\anacarolinacs\\Documents\\Kilimanjaro\\SilvaEstacionamento\\SilvaEstacionamentoModelos\\SilvaEstacionamentoModelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anacarolinacs\\Documents\\Kilimanjaro\\SilvaEstacionamento\\SilvaEstacionamentoModelos\\SilvaEstacionamentoModelos.csproj",
+        "projectName": "SilvaEstacionamentoModelos",
+        "projectPath": "C:\\Users\\anacarolinacs\\Documents\\Kilimanjaro\\SilvaEstacionamento\\SilvaEstacionamentoModelos\\SilvaEstacionamentoModelos.csproj",
+        "packagesPath": "C:\\Users\\anacarolinacs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anacarolinacs\\Documents\\Kilimanjaro\\SilvaEstacionamento\\SilvaEstacionamentoModelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anacarolinacs\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anacarolinacs\\Documents\\Kilimanjaro\\SilvaEstacionamento\\SilvaEstacionamentoTest\\SilvaEstacionamentoTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anacarolinacs\\Documents\\Kilimanjaro\\SilvaEstacionamento\\SilvaEstacionamentoTest\\SilvaEstacionamentoTest.csproj",
+        "projectName": "SilvaEstacionamentoTest",
+        "projectPath": "C:\\Users\\anacarolinacs\\Documents\\Kilimanjaro\\SilvaEstacionamento\\SilvaEstacionamentoTest\\SilvaEstacionamentoTest.csproj",
+        "packagesPath": "C:\\Users\\anacarolinacs\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anacarolinacs\\Documents\\Kilimanjaro\\SilvaEstacionamento\\SilvaEstacionamentoTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anacarolinacs\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anacarolinacs\\Documents\\Kilimanjaro\\SilvaEstacionamento\\SilvaEstacionamentoModelos\\SilvaEstacionamentoModelos.csproj": {
+                "projectPath": "C:\\Users\\anacarolinacs\\Documents\\Kilimanjaro\\SilvaEstacionamento\\SilvaEstacionamentoModelos\\SilvaEstacionamentoModelos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DotNet.Testcontainers": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "Faker.Net": {
+              "target": "Package",
+              "version": "[2.0.154, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.17.2, )"
+            },
+            "NBuilder": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.console": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
